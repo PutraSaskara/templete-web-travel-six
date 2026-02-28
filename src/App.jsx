@@ -8,8 +8,11 @@ import { Tours } from './pages/Tours';
 import { TourDetail } from './pages/TourDetail';
 import { Blog } from './pages/Blog';
 import { BlogDetail } from './pages/BlogDetail';
+import { useFavicon } from './hooks/useFavicon';
 
 function App() {
+    useFavicon();
+
     return (
         <>
             <ScrollToTop />

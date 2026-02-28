@@ -20,6 +20,7 @@ export const siteConfig = {
     global: {
         siteName: "BaliTravel",
         logoIcon: "temple_hindu", // Material icon name
+        favicon: "/favicon.svg", // Path to favicon (supports .svg, .png, .ico)
         navbar: {
             links: [
                 { label: "Home", path: "/" },
@@ -211,7 +212,7 @@ export const siteConfig = {
                 "Stunning sunrise panorama",
                 "Visit natural hot springs after the trek",
             ],
-            image: "https://images.unsplash.com/photo-1604922824961-87cefb9cb6c4?w=800",
+            image: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1200&q=80",
         },
         {
             id: 3,
@@ -245,7 +246,7 @@ export const siteConfig = {
                 "Snorkeling at Crystal Bay",
                 "Chance to see manta rays",
             ],
-            image: "https://images.unsplash.com/photo-1570789210967-2cac24750d2e?w=800",
+            image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
         },
         {
             id: 5,
